@@ -4,6 +4,8 @@
 <body>
 <!-- Generated from docs/USER-GUIDE.en.md; keep both copies in sync. -->
 <h1>Eloquence C – user guide</h1>
+<h2>Version 1.2.3</h2>
+<p>Add-on updates now come from Forgejo releases, with a published SHA-256 checksum for each package. Speech, settings and dictionaries are unchanged.</p>
 <h2>Version 1.2.2</h2>
 <p>The base pitch can optionally be set exactly in hertz. German final A is now also used before commas, colons and other pauses. For new NVDA installations the default pitch of 65 corresponds to the default Reed voice.</p>
 <h2>Version 1.2.1</h2>
@@ -24,7 +26,7 @@
 <h2>Install and select</h2>
 <p>You need NVDA 2026.1 or later in a 64-bit process. The package contains a Windows x64 DLL.</p>
 <ol>
-<li>Download a <code>.nvda-addon</code> file from <a href="https://github.com/hozosch/Reloq-C/releases">Releases</a> when a package is available there.</li>
+<li>Download a <code>.nvda-addon</code> file from <a href="https://git.serrebiradio.com/serrebi/Reloq-C/releases">Releases</a> when a package is available there.</li>
 <li>Open it with NVDA, confirm installation and restart NVDA.</li>
 <li>Press <strong>NVDA+Control+S</strong>, choose <strong>Eloquence C</strong> and confirm.</li>
 <li>Choose a language and voice in NVDA&#39;s <strong>Speech</strong> settings.</li>
@@ -132,7 +134,7 @@
 <p>Files use the native Dic format: Windows-1252 encoding, one entry per line and a tab between the lookup word and replacement. Main keys are case-sensitive, and ordinary text replacements subsequently undergo normal text analysis. Root and pronunciation entries are handled at their respective dictionary stages.</p>
 <p>Edits to selected files and files in the dictionary folder are detected in the background, including newly created files and editor-style file replacements. Invalid data leaves the last valid set active. Community updates refresh the files in this add-on folder. Selected own files and locally edited or removed dictionary files are preserved. A locally edited volume takes priority over the downloaded volume. No additional editing folder is created in NVDA’s main directory.</p>
 <p>The first utterance waits until the selected dictionaries have loaded completely. If no valid set is available at startup, an error dialog appears. Check the dictionary settings or temporarily choose another synthesizer.</p>
-<p>Under <strong>Add-on updates</strong>, choose <strong>Check for add-on updates</strong> to check published GitHub Releases. If a newer package is available, <strong>Download and install update</strong> checks the download and opens NVDA’s normal installation and confirmation flow. Checks run only when requested. If no package has been published, the panel says so. <strong>Update dictionaries now</strong> remains independent of package updates.</p>
+<p>Under <strong>Add-on updates</strong>, choose <strong>Check for add-on updates</strong> to check published Forgejo releases. If a newer package is available, <strong>Download and install update</strong> checks the download and opens NVDA’s normal installation and confirmation flow. Checks run only when requested. If no package has been published, the panel says so. <strong>Update dictionaries now</strong> remains independent of package updates.</p>
 <h2>Reporting problems</h2>
 <p>NVDA can process symbols before sending text to the synthesizer; its symbol settings therefore also affect which characters reach ReLoq. See the <a href="https://github.com/hozosch/Reloq-C/blob/main/docs/CURRENT-WORK.md">technical work status</a> for details.</p>
 <p>When <a href="https://github.com/hozosch/Reloq-C/issues">reporting an issue</a>, include a short example, language, voice, version, sample rate and whether dictionaries are enabled. Explain whether speech stops, pronunciation is wrong or NVDA itself exits.</p>

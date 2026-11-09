@@ -1,5 +1,9 @@
 # Eloquence C – Bedienungsanleitung
 
+## Version 1.2.3
+
+Add-on-Updates kommen nun aus Forgejo-Releases, mit einer veröffentlichten SHA-256-Prüfsumme je Paket. Sprachausgabe, Einstellungen und Wörterbücher sind unverändert.
+
 ## Version 1.2.2
 
 Die Grundtonhöhe lässt sich optional exakt in Hertz einstellen. Bei Deutsch wird das finale A auch vor Komma, Doppelpunkt und weiteren Pausen verwendet. Bei einer Neuinstallation in NVDA entspricht die Standardtonhöhe 65 der voreingestellten Stimme Reed.
@@ -38,7 +42,7 @@ Eloquence C ist die NVDA-Erweiterung des Projekts [ReLoq C](https://github.com/h
 
 Benötigt wird NVDA ab 2026.1 mit einem 64-Bit-Prozess. Das Paket enthält eine Windows-x64-DLL.
 
-1. Lade eine `.nvda-addon`-Datei aus den [Releases](https://github.com/hozosch/Reloq-C/releases), sobald dort ein Paket angeboten wird.
+1. Lade eine `.nvda-addon`-Datei aus den [Releases](https://git.serrebiradio.com/serrebi/Reloq-C/releases), sobald dort ein Paket angeboten wird.
 2. Öffne die Datei mit NVDA, bestätige die Installation und starte NVDA neu.
 3. Drücke **NVDA+Strg+S**, wähle **Eloquence C** und bestätige.
 4. Wähle in den NVDA-Einstellungen unter **Sprachausgabe** die gewünschte Sprache und Stimme.
@@ -123,7 +127,7 @@ Die Dateien verwenden das native Dic-Format: Windows-1252, ein Eintrag pro Zeile
 
 Die erste Sprachausgabe wartet, bis die ausgewählten Wörterbücher vollständig geladen sind. Wenn beim Start kein gültiger Stand verfügbar ist, erscheint eine Fehlermeldung. Prüfe dann die Wörterbucheinstellungen oder wähle vorübergehend eine andere Sprachausgabe.
 
-Unter **Add-on-Updates** prüft **Nach Add-on-Updates suchen** die veröffentlichten GitHub-Releases. Ist ein neueres Paket verfügbar, prüft **Update herunterladen und installieren** den Download und öffnet NVDAs normalen Installations- und Bestätigungsdialog. Die Prüfung läuft nur auf Anforderung. Wenn noch kein Paket veröffentlicht wurde, zeigt der Bereich dies an. **Wörterbücher jetzt aktualisieren** bleibt davon unabhängig.
+Unter **Add-on-Updates** prüft **Nach Add-on-Updates suchen** die veröffentlichten Forgejo-Releases. Ist ein neueres Paket verfügbar, prüft **Update herunterladen und installieren** den Download und öffnet NVDAs normalen Installations- und Bestätigungsdialog. Die Prüfung läuft nur auf Anforderung. Wenn noch kein Paket veröffentlicht wurde, zeigt der Bereich dies an. **Wörterbücher jetzt aktualisieren** bleibt davon unabhängig.
 
 ## Fehler melden
 

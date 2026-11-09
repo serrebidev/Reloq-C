@@ -1,5 +1,9 @@
 # Eloquence C – user guide
 
+## Version 1.2.3
+
+Add-on updates now come from Forgejo releases, with a published SHA-256 checksum for each package. Speech, settings and dictionaries are unchanged.
+
 ## Version 1.2.2
 
 The base pitch can optionally be set exactly in hertz. German final A is now also used before commas, colons and other pauses. For new NVDA installations the default pitch of 65 corresponds to the default Reed voice.
@@ -38,7 +42,7 @@ Eloquence C is the NVDA add-on from [ReLoq C](https://github.com/hozosch/Reloq-C
 
 You need NVDA 2026.1 or later in a 64-bit process. The package contains a Windows x64 DLL.
 
-1. Download a `.nvda-addon` file from [Releases](https://github.com/hozosch/Reloq-C/releases) when a package is available there.
+1. Download a `.nvda-addon` file from [Releases](https://git.serrebiradio.com/serrebi/Reloq-C/releases) when a package is available there.
 2. Open it with NVDA, confirm installation and restart NVDA.
 3. Press **NVDA+Control+S**, choose **Eloquence C** and confirm.
 4. Choose a language and voice in NVDA's **Speech** settings.
@@ -123,7 +127,7 @@ Edits to selected files and files in the dictionary folder are detected in the b
 
 The first utterance waits until the selected dictionaries have loaded completely. If no valid set is available at startup, an error dialog appears. Check the dictionary settings or temporarily choose another synthesizer.
 
-Under **Add-on updates**, choose **Check for add-on updates** to check published GitHub Releases. If a newer package is available, **Download and install update** checks the download and opens NVDA’s normal installation and confirmation flow. Checks run only when requested. If no package has been published, the panel says so. **Update dictionaries now** remains independent of package updates.
+Under **Add-on updates**, choose **Check for add-on updates** to check published Forgejo releases. If a newer package is available, **Download and install update** checks the download and opens NVDA’s normal installation and confirmation flow. Checks run only when requested. If no package has been published, the panel says so. **Update dictionaries now** remains independent of package updates.
 
 ## Reporting problems
 
